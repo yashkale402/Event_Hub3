@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Events Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Neighborhood Events Hub</h1>
+
+        <!-- Filters Section -->
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search events...">
+            <input type="text" id="event-type" placeholder="e.g., Music, Sports">
+            <input type="text" id="location" placeholder="e.g., New York">
+            <input type="date" id="date">
+            <button id="filter-btn">Filter Events</button>
+        </div>
+
+        <!-- Events Section -->
+        <div id="events-container" class="events-container">
+            <!-- Events will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
